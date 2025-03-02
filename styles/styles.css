@@ -1,0 +1,51 @@
+:root {
+  --nav-color: #55376c;
+  --nav-color-hover: #946bb3;
+  --accent-color: #47682c;
+  --accent-color-hover: #364f21;
+  --primary-color: #e1e2ef;
+  --text-color: #02020a;
+}
+
+.bg-mycolor {
+  background-color: var(--nav-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.nav-li {
+  margin: 0 1em;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2); /* Light highlight */
+  border-radius: 5px;
+}
+
+.top-image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .top-image {
+    max-height: 300px;
+  }
+}
+
+.recipe-image-wrapper {
+  width: 100%; /* Make it responsive */
+  max-width: 400px; /* Optional: Prevents image from getting too large */
+  aspect-ratio: 4 / 3; /* Keeps a consistent aspect ratio */
+  overflow: hidden; /* Ensures no overflow */
+}
+
+.recipe-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the area without distortion */
+  border: 2px solid #ddd; /* Optional: Adds a nice border */
+}
