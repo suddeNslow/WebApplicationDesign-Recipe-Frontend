@@ -2,9 +2,10 @@
 const recipes = [
   {
     id: 1,
-    title: "Spaghetti Carbonara",
+    title: "Meatballs",
     image: "images/food1.jpg",
-    description: "A creamy, classic pasta dish.",
+    description:
+      "Juicy little sheet pan meatballs that are salty, zesty, briney, and so so delicious.",
   },
   {
     id: 2,
@@ -14,9 +15,10 @@ const recipes = [
   },
   {
     id: 3,
-    title: "Chocolate Cake",
+    title: "BBQ Salmon Bowls",
     image: "images/food3.jpg",
-    description: "Rich and moist chocolate cake.",
+    description:
+      "n easy and impressive dinner with yummy smoky-sweet flavor and a zip of zesty homemade salsa to take it over the top.",
   },
   {
     id: 4,
